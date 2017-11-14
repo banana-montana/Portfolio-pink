@@ -1,9 +1,7 @@
 
 'use strict';
 
-
 // Screen height adjustments
-
 function setHeight() {
     let body = document.getElementById('body');
     let windowHeight = window.innerHeight;
@@ -13,6 +11,7 @@ function setHeight() {
 
 setHeight();
 
+//code for portfolio image grid
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -24,6 +23,7 @@ function filterSelection(c) {
   }
 }
 
+//add display class onto image
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -33,6 +33,7 @@ function w3AddClass(element, name) {
   }
 }
 
+//remove display class onto image
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -45,4 +46,12 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+// mobile nav menu
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
 

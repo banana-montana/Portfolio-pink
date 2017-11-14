@@ -34,111 +34,140 @@
 
 <div class="container">
 
-	<header>
-		<nav>
-			<div class="row">
-				<div class="twelve columns">
-					<ul>					
-						<li><h3><b>Lea</b> de Sousa</h3></li>
-						<li><a href="index.html">say hi</a></li>
-						<li><a href="about.html">about</a></li>
-						<li><a href="index.html">work</a></li>
-					</ul>
-					<hr>
-				</div>
-			</div>
-		</nav>
+  <header>
+    <!-- mobile and tablet nav menu -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <li><a href="index.html">work</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="about.html">say hi</a></li>
+
+      </div>
+    </div>
+
+    <span class="mobilenav" onclick="openNav()">
+      <div class="row">
+        <div class="twelve columns">
+          <h3><b>Lea</b> de Sousa</h3>
+          <p>&#9776;</p>
+          <div class="clearfix"></div>
+          <hr>
+        </div>
+      </div> 
+    </span>
+
+    <!-- desktop/default nav menu -->
+  	<nav>
+  		<div class="row">
+  			<div class="twelve columns">
+  				<ul>					
+  					<li><h3><b>Lea</b> de Sousa</h3></li>
+  					<li><a href="index.html">say hi</a></li>
+  					<li><a href="about.html">about</a></li>
+  					<li><a href="index.html">work</a></li>
+  				</ul>
+  				<hr>
+  			</div>
+  		</div>
+  	</nav>
 	</header>
 
-    <main>
+  <main>
 
-    <!-- Portfolio Gallery Grid -->
-    <section class="filter-menu">
-      <button class="button" type="button" onclick="filterSelection('all')" name="category">everything</button>
-      <button class="button" type="button" onclick="filterSelection('print')" name="category">print</button>
-      <button class="button" type="button" onclick="filterSelection('web')" name="category">web</button>
-      <button class="button" type="button" onclick="filterSelection('animation')" name="category">animation</button>
-    </section>
-
-    <!-- Portfolio Gallery Grid -->
-    <section class="porti">
+  <!-- Portfolio Gallery Grid -->
+  <section class="filter-menu">
     <div class="row">
-
-    <div class="one-third column print">
-      <div class="content">
-        <img src="img/marshmallow-01.jpg" alt="Mountains">
-          <h4>Mountains</h4>
-            <p>Lorem ipsum dolor..</p>
+      <div class="twelve columns">
+      
+        <button class="button" type="button" onclick="filterSelection('all')" name="category">everything</button>
+        <button class="button" type="button" onclick="filterSelection('print')" name="category">print</button>
+        <button class="button" type="button" onclick="filterSelection('web')" name="category">web</button>
+        <button class="button" type="button" onclick="filterSelection('animation')" name="category">animation</button>
+        
       </div>
     </div>
+  </section>
 
-    <div class="one-third column web">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
+  <!-- Portfolio Gallery Grid -->
+  <section class="porti">
+  <div class="row">
+
+  <div class="one-third column print">
+    <div class="content">
+      <img src="img/marshmallow-01.jpg" alt="Mountains">
+        <h4>Mountains</h4>
           <p>Lorem ipsum dolor..</p>
-      </div>
     </div>
+  </div>
 
-    <div class="one-third column animation">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
+  <div class="one-third column web">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="one-third column animation">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="one-third column print">
+    <div class="content">
+      <img src="img/marshmallow-01.jpg" alt="Mountains">
+        <h4>Mountains</h4>
           <p>Lorem ipsum dolor..</p>
-      </div>
     </div>
+  </div>
 
-    <div class="one-third column print">
-      <div class="content">
-        <img src="img/marshmallow-01.jpg" alt="Mountains">
-          <h4>Mountains</h4>
-            <p>Lorem ipsum dolor..</p>
-      </div>
+  <div class="one-third column web">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
     </div>
+  </div>
 
-    <div class="one-third column web">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
+  <div class="one-third column animation">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="one-third column print">
+    <div class="content">
+      <img src="img/marshmallow-01.jpg" alt="Mountains">
+        <h4>Mountains</h4>
           <p>Lorem ipsum dolor..</p>
-      </div>
     </div>
+  </div>
 
-    <div class="one-third column animation">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
-          <p>Lorem ipsum dolor..</p>
-      </div>
+  <div class="one-third column web">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
     </div>
+  </div>
 
-    <div class="one-third column print">
-      <div class="content">
-        <img src="img/marshmallow-01.jpg" alt="Mountains">
-          <h4>Mountains</h4>
-            <p>Lorem ipsum dolor..</p>
-      </div>
+  <div class="one-third column animation">
+    <div class="content">
+    <img src="img/marshmallow-01.jpg" alt="Lights">
+      <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
     </div>
+  </div>
 
-    <div class="one-third column web">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
-          <p>Lorem ipsum dolor..</p>
-      </div>
-    </div>
-
-    <div class="one-third column animation">
-      <div class="content">
-      <img src="img/marshmallow-01.jpg" alt="Lights">
-        <h4>Lights</h4>
-          <p>Lorem ipsum dolor..</p>
-      </div>
-    </div>
-
-    </div>
-    </section>    
-    <!-- end grid -->
+  </div>
+  </section>    
+  <!-- end grid -->
 
     </main>
 
