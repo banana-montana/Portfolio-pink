@@ -185,16 +185,36 @@ hr {
       transition: all 0.5s ease;
       border-bottom: 3px solid #ff6160; }
 
-/* ---- portfolio filter ---- */
+/* ---- work page ---- */
+/* portfolio filter */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .content {
   background-color: white;
-  margin: 10px; }
+  margin: 10px;
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  color: #202020; }
   .content img {
+    padding: 10px 10px 0 10px;
     width: 100%; }
+  .content h4 {
+    font-size: 18pt;
+    font-weight: 500;
+    text-align: left;
+    padding: 0 10px 5px 10px;
+    margin: 0; }
+  .content hr {
+    margin: 0 10px;
+    border-color: #ff6160;
+    border-width: 1.5px;
+    color: #ff6160; }
+  .content p {
+    font-size: 11pt;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px 10px; }
 
 /* Hide all elements by default */
 .column {
@@ -219,8 +239,9 @@ hr {
     z-index: 2; }
 
 .call-to-action {
+  padding: 0 0 0 20px;
   z-index: 10;
-  margin-top: 100px;
+  margin-top: 130px;
   color: #ff6160;
   text-align: right; }
   .call-to-action h3 {
@@ -240,11 +261,31 @@ hr {
 
 .about-text {
   left: 600px;
-  margin-left: -70px;
+  margin-left: -90px;
   z-index: 10;
   padding-bottom: 20px; }
   .about-text p {
     text-align: justify; }
+
+/* ---- contact page ---- */
+.contact-header {
+  color: #ff6160;
+  font-family: 'Quicksand', 'Raleway', helvetica, arial, sans-serif; }
+  .contact-header h2 {
+    line-height: 39px;
+    letter-spacing: .05rem;
+    font-weight: 500;
+    font-size: 22pt;
+    padding: 13% 20% 22px 20%; }
+
+.contact {
+  border-left: 5px solid #ff6160;
+  margin: 0 20%;
+  padding: 0 10px; }
+  .contact p {
+    font-size: 16pt; }
+  .contact i {
+    font-size: 20pt; }
 
 /* correcting Skeleton CSS */
 @media (min-width: 550px) {
@@ -274,23 +315,28 @@ hr {
     right: 15px; }
   /* ---- footer ---- */
   .footer-icons {
-    font-size: 18pt;
+    font-size: 20pt;
     margin: 30px 0; }
   .fa {
     margin: 0 10px; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; }
   /* ---- about page ---- */
   .about-image {
     z-index: 2;
-    margin-top: 80px; }
+    margin-top: 60px; }
     .about-image img {
-      width: 210%;
+      width: 100%;
       z-index: 2; }
   .call-to-action {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: left; }
     .call-to-action h3 {
       letter-spacing: 1pt;
-      font-size: 18pt; }
+      font-size: 20pt; }
   .cta-button {
     font-size: 12pt;
     line-height: 1.2; }
@@ -300,12 +346,21 @@ hr {
     padding-bottom: 20px; }
     .about-text p {
       text-align: justify; }
+  /* ---- contact page ---- */
+  .contact-header h2 {
+    line-height: 35px;
+    font-size: 18pt;
+    padding: 80px 0 15px 0; }
+  .contact {
+    border-left: 3px solid #ff6160;
+    margin: 0;
+    padding: 0 10px; }
   /* ---- override column structure ---- */
   .one-third.column {
     width: 100%; } }
 
 /* ---- large mobile ---- */
-@media only screen and (min-width: 640px) and (max-width: 767px) {
+@media only screen and (min-width: 640px) and (max-width: 768px) {
   /* ---- background colours ---- */
   .bg01 {
     border-bottom: 250px solid #fbd258;
@@ -319,21 +374,42 @@ hr {
     top: -10px;
     right: 48px; }
   /* ---- about page ---- */
+  .about-image {
+    z-index: 2;
+    margin-top: 60px; }
+    .about-image img {
+      width: 205%;
+      z-index: 2; }
   .call-to-action {
-    margin-top: 40px;
-    text-align: left; }
+    padding: 0;
+    margin-left: -100%;
+    margin-top: 450px;
+    text-align: left;
+    margin-right: 124%; }
     .call-to-action h3 {
       letter-spacing: 1pt;
-      font-size: 18pt; }
+      font-size: 20pt; }
   .cta-button {
     font-size: 12pt;
     line-height: 1.2; }
   .about-text {
     left: 0;
-    margin-left: 0px;
-    padding-bottom: 20px; }
+    margin-top: -240px;
+    margin-left: -14%; }
     .about-text p {
       text-align: justify; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  /* ---- contact page ---- */
+  .contact-header h2 {
+    padding: 25% 40px 10px 40px; }
+  .contact {
+    border-left: 4px solid #ff6160;
+    margin: 0 40px;
+    padding: 0 10px; }
   /* ---- override column structure ---- */
   .one-third.column {
     width: 50%; } }
@@ -349,7 +425,44 @@ hr {
     display: none; }
   /* ---- override column structure ---- */
   .one-third.column {
-    width: 33.33%; } }
+    width: 33.33%; }
+  /* ---- about page ---- */
+  .about-image {
+    z-index: 2;
+    margin-top: 60px; }
+    .about-image img {
+      width: 205%;
+      z-index: 2; }
+  .call-to-action {
+    padding: 0;
+    margin-left: -100%;
+    margin-top: 500px;
+    text-align: left;
+    margin-right: 130%; }
+    .call-to-action h3 {
+      letter-spacing: 1pt;
+      font-size: 20pt; }
+  .cta-button {
+    font-size: 12pt;
+    line-height: 1.2; }
+  .about-text {
+    left: 0;
+    margin-top: -240px;
+    margin-left: -14%; }
+    .about-text p {
+      text-align: justify; }
+  /* ---- contact page ---- */
+  .contact-header h2 {
+    padding: 25% 80px 25px 80px; }
+  .contact {
+    border-left: 4px solid #ff6160;
+    margin: 0 80px;
+    padding: 0 10px; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
 
 /* ---- tablet ---- */
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
@@ -364,7 +477,12 @@ hr {
     display: none; }
   /* ---- override column structure ---- */
   .one-third.column {
-    width: 33.33%; } }
+    width: 33.33%; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
 
 /* ---- desktop ---- */
 @media only screen and (min-width: 1366px) and (max-width: 1599px) {
@@ -379,7 +497,23 @@ hr {
     display: none; }
   /* ---- override column structure ---- */
   .one-third.column {
-    width: 33.33%; } }
+    width: 33.33%; }
+  /* ---- about page ---- */
+  .call-to-action {
+    padding-left: 100px; }
+  .cta-button {
+    font-size: 10pt;
+    text-transform: none;
+    line-height: 1.5;
+    border-radius: 25px;
+    border: 2px solid #ff6160;
+    padding: 8px 30px;
+    margin: 10px 0 60px 0; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
 
 /* ---- large desktop ---- */
 @media only screen and (min-width: 1600px) and (max-width: 1900px) {
@@ -394,7 +528,45 @@ hr {
     display: none; }
   /* ---- override column structure ---- */
   .one-third.column {
-    width: 33.33%; } }
+    width: 33.33%; }
+  /* ---- about page ---- */
+  .about-image {
+    z-index: 2;
+    margin-top: 80px; }
+    .about-image img {
+      width: 100%;
+      z-index: 2; }
+  .call-to-action {
+    padding: 0 0 0 20px;
+    z-index: 10;
+    margin-top: 130px;
+    color: #ff6160;
+    text-align: right; }
+    .call-to-action h3 {
+      font-weight: bold;
+      letter-spacing: 1pt;
+      margin: 0;
+      font-size: 22pt; }
+  .cta-button {
+    font-size: 10pt;
+    text-transform: none;
+    line-height: 1.5;
+    border-radius: 25px;
+    border: 2px solid #ff6160;
+    padding: 8px 30px;
+    margin: 10px 0 40px 0; }
+  .about-text {
+    left: 600px;
+    margin-left: -90px;
+    z-index: 10;
+    padding-bottom: 20px; }
+    .about-text p {
+      text-align: justify; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
 
 @media only screen and (min-width: 1500px) {
   /* ---- background colours ---- */
@@ -406,4 +578,9 @@ hr {
     display: none; }
   /* ---- override column structure ---- */
   .one-third.column {
-    width: 25%; } }
+    width: 25%; }
+  .fspecial {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; } }

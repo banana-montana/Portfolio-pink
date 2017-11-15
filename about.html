@@ -8,7 +8,7 @@
 	<meta name="keywords" content="portfolio, portfolio website, web design, web developer, graphic design, designer, design">
 	<meta name="author" content="Leandra de Sousa">
 
-	<title>Lea de Sousa</title>
+	<title>About</title>
 
   <!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Questrial|Raleway:400,500,700,800,900" rel="stylesheet">
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	<!-- /// background /// -->
+	<!-- background -->
 	<section id="body" class="bg">
 		<div class="colour02">
 			<div class="bg01"></div>
@@ -32,24 +32,46 @@
 
 <div class="container">
 
-	<header>
-		<nav>
-			<div class="row">
-				<div class="twelve columns">
-						<ul>					
-							<li><h3><b>Lea</b> de Sousa</h3></li>
-							<li><a href="index.html">say hi</a></li>
-							<li><a href="index.html">about</a></li>
-							<li><a href="index.html">work</a></li>
+  <header>
+    <!-- mobile and tablet nav menu -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <li><a href="index.html">work</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="about.html">say hi</a></li>
 
-						</ul>
-					<hr>
-				</div>
-			</div>
-		</nav>
+      </div>
+    </div>
+
+    <span class="mobilenav" onclick="openNav()">
+      <div class="row">
+        <div class="twelve columns">
+          <h3><b>Lea</b> de Sousa</h3>
+          <p>&#9776;</p>
+          <div class="clearfix"></div>
+          <hr>
+        </div>
+      </div> 
+    </span>
+
+    <!-- desktop/default nav menu -->
+  	<nav>
+  		<div class="row">
+  			<div class="twelve columns">
+  				<ul>					
+  					<li><h3><b>Lea</b> de Sousa</h3></li>
+  					<li><a href="index.html">say hi</a></li>
+  					<li><a href="about.html">about</a></li>
+  					<li><a href="index.html">work</a></li>
+  				</ul>
+  				<hr>
+  			</div>
+  		</div>
+  	</nav>
 	</header>
 
-	<main>
+  <main>
 		<div class="twelve columns">
 
 			<div class="six columns">
@@ -81,7 +103,7 @@
 	</main>
 
 	<footer>
-    <div class="footer-icons">
+    <div class="footer-icons fspecial">
       <i class="fa fa-linkedin" aria-hidden="true"></i>
       <i class="fa fa-instagram" aria-hidden="true"></i>
       <i class="fa fa-facebook" aria-hidden="true"></i>
