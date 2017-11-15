@@ -218,16 +218,16 @@ hr {
 
 /* Hide all elements by default */
 .column {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   display: none; }
 
 /* The "show" class is added to the filtered elements */
 .show {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
   display: block; }
 
 /* ---- about page ---- */
@@ -301,6 +301,8 @@ hr {
   .bg01 {
     border-bottom: 200px solid #fbd258;
     border-right: 640px solid transparent; }
+  .bg02 {
+    height: 400px; }
   /* ---- nav ---- */
   nav {
     display: none; }

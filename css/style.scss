@@ -249,14 +249,14 @@ hr {
 /* Hide all elements by default */
 
 .column {
-  transition: all 0.3s ease;
+  transition: 0.5s;
   display: none;
 }
 
 /* The "show" class is added to the filtered elements */
 
 .show {
-  transition: all 0.3s ease;
+  transition: 0.7s ;
   display: block;
 }
 
@@ -350,6 +350,10 @@ hr {
   .bg01 {
     border-bottom: 200px solid #fbd258;
     border-right: 640px solid transparent;
+  }
+
+  .bg02 {
+  height: 400px; 
   }
 
   /* ---- nav ---- */
@@ -627,7 +631,7 @@ hr {
   .one-third.column {
     width: 33.33%;
   }
-  
+
   .fspecial {
     position: fixed;
     bottom: 0;

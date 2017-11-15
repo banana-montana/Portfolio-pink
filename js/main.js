@@ -11,6 +11,17 @@ function setHeight() {
 
 setHeight();
 
+
+// mobile nav menu
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+
+
 //code for portfolio image grid
 filterSelection("all")
 function filterSelection(c) {
@@ -44,14 +55,5 @@ function w3RemoveClass(element, name) {
     }
   }
   element.className = arr1.join(" ");
-}
-
-// mobile nav menu
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
 }
 
