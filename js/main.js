@@ -2,14 +2,15 @@
 'use strict';
 
 // Screen height adjustments
-// function setHeight() {
-//     let body = document.getElementById('body');
-//     let windowHeight = window.innerHeight;
+function setHeight() {
+    let body = document.getElementById('body');
+    let windowHeight = window.innerHeight;
 
-//     body.style.height = windowHeight + 'px';
-// }
+    body.style.height = windowHeight + 'px';
+}
 
-// setHeight();
+$(window).resize(setHeight());
+setHeight();
 
 
 // mobile nav menu
