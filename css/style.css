@@ -11,7 +11,8 @@ html {
 /* ---- static background colour ---- */
 #body {
   z-index: 1;
-  position: fixed; }
+  position: fixed;
+  height: 100vh; }
 
 .bg {
   background-color: #ffe1c2;
