@@ -13,7 +13,7 @@ html {
 #body {
   z-index: 1;
   position: fixed;
-  height: 120vh; }
+  height: 105vh; }
 
 .bg {
   background-color: #ffe1c2;
@@ -341,14 +341,16 @@ hr {
       width: 100%;
       z-index: 2; }
   .call-to-action {
+    padding: 0;
     margin-top: 30px;
     text-align: left; }
     .call-to-action h3 {
       letter-spacing: 1pt;
       font-size: 20pt; }
   .cta-button {
+    padding: 8px 20px;
     font-size: 12pt;
-    line-height: 1.2; }
+    line-height: 1; }
   .about-text {
     left: 0;
     margin-left: 0px;
