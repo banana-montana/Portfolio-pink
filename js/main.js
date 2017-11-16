@@ -9,9 +9,9 @@ function setHeight() {
     body.style.height = windowHeight + 'px';
 }
 
-$(window).scroll(setHeight());
-$(window).resize(setHeight());
-setHeight();
+// $(window).scroll(setHeight());
+// $(window).resize(setHeight());
+// setHeight();
 
 
 // mobile nav menu

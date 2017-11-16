@@ -1,6 +1,7 @@
 html {
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #fbd258; }
 
 .container {
   position: relative;
