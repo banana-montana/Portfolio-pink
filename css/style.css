@@ -357,12 +357,14 @@ hr {
   /* ---- contact page ---- */
   .contact-header h2 {
     line-height: 35px;
-    font-size: 18pt;
-    padding: 50px 0 15px 0; }
+    font-size: 16pt;
+    padding: 50px 0 10px 0; }
   .contact {
     border-left: 3px solid #ff6160;
     margin: 0;
     padding: 0 10px; }
+    .contact i {
+      font-size: 18pt; }
   /* ---- override column structure ---- */
   .one-third.column {
     width: 100%; } }
