@@ -12,7 +12,7 @@ html {
 #body {
   z-index: 1;
   position: fixed;
-  height: 100vh; }
+  min-height: 100vh; }
 
 .bg {
   background-color: #ffe1c2;
